@@ -54,7 +54,7 @@ Pengguna dapat memilih menu sesuai dengan kebutuhan pengelolaan data melalui pil
 
 ## 2.2 Menu Tambah
 
-<img width="584" height="241" alt="image" src="https://github.com/user-attachments/assets/3b09014d-7fd4-4dfd-b66b-c605122957ef" />
+<img width="381" height="136" alt="image" src="https://github.com/user-attachments/assets/de44096a-b9bc-4192-a01a-847802811053" />
 
 Gambar di atas menampilkan Menu Tambah Data pada program Sistem Manajemen Panti Jompo Rumah Senja. Pada menu ini, pengguna dapat memilih jenis penghuni yang ingin ditambahkan, yaitu Penghuni Intensif atau Penghuni Mandiri. Setiap jenis penghuni memiliki data yang perlu diinput sesuai dengan kategorinya. Setelah pengguna memilih jenis penghuni, sistem akan meminta pengguna untuk memasukkan informasi yang diperlukan, seperti ID, nama, usia, nomor telepon, jenis kelamin, serta kondisi penghuni. Dengan adanya pilihan tersebut, data penghuni dapat dikelompokkan berdasarkan jenisnya sehingga pengelolaan data menjadi lebih terstruktur.
 
@@ -78,6 +78,16 @@ Gambar di atas menampilkan informasi yang perlu diinput untuk menambahkan data P
 
 Gambar di atas menunjukkan bahwa data Penghuni Intensif berhasil ditambahkan ke dalam sistem.
 
+### 2.2.2 Tambah Data Penghuni Bedridden
+
+<img width="378" height="214" alt="image" src="https://github.com/user-attachments/assets/69ea4d6f-b268-4ed6-9106-7e95e7816e03" />
+
+Gambar di atas menampilkan informasi yang perlu diinput untuk menambahkan data Penghuni Bedridden. Informasi yang dimasukkan terdiri dari data umum penghuni, yaitu ID, nama, usia, jenis kelamin, nomor telepon keluarga, dan kondisi kesehatan. Selain itu, terdapat informasi tambahan khusus untuk Penghuni Intensif, yaitu nama perawat, jadwal kontrol medis, dan jadwal pemberian obat, serta informais tambahan lagi untuk Penghuni Bedridden, yaitu tingkat ketergantungan dan jadwal ubah posisi. Informasi tambahan tersebut digunakan untuk mendukung pengelolaan dan pemantauan kebutuhan khusus penghuni bedridden.
+
+<img width="371" height="239" alt="image" src="https://github.com/user-attachments/assets/f639af37-619b-423a-a249-885b0ae658c1" />
+
+Gambar di atas menunjukkan bahwa data Penghuni Bedridden berhasil ditambahkan ke dalam sistem.
+
 ## 2.3 Menu Tampilkan
 
 <img width="592" height="273" alt="image" src="https://github.com/user-attachments/assets/75427902-e45b-49a5-8324-47cd3aba0469" />
@@ -86,9 +96,9 @@ Gambar di atas menampilkan Menu Tampilkan Data pada program Sistem Manajemen Pan
 
 ### 2.3.1 Tampilkan Seluruh Data Penghuni
 
-<img width="591" height="620" alt="image" src="https://github.com/user-attachments/assets/a4c91adb-b041-49cb-b5c0-ec04ccfc5bc2" />
+<img width="392" height="580" alt="image" src="https://github.com/user-attachments/assets/8e19dc88-0484-4854-9ca1-63ee3215061b" />
 
-Gambar di atas menunjukkan seluruh data penghuni Panti Jompo Rumah Senja, yang terdiri dari Penghuni Mandiri dan Penghuni Intensif. Ketika pengguna memilih menu untuk menampilkan seluruh data, sistem akan menampilkan informasi dari kedua jenis penghuni tersebut.
+Gambar di atas menunjukkan seluruh data penghuni Panti Jompo Rumah Senja, yang terdiri dari Penghuni Mandiri, Penghuni Intensif, dan Penghuni Bedridden. Ketika pengguna memilih menu untuk menampilkan seluruh data, sistem akan menampilkan informasi dari kedua jenis penghuni tersebut.
 
 ### 2.3.2 Tampilkan Data Penghuni Intensif
 
@@ -101,6 +111,13 @@ Gambar di atas menunjukkan data Penghuni Intensif. Ketika pengguna memilih menu 
 <img width="588" height="348" alt="image" src="https://github.com/user-attachments/assets/22a3cfdf-ad7d-47b1-99a6-3902361f8ce1" />
 
 Gambar di atas menunjukkan data Penghuni Mandiri. Ketika pengguna memilih menu ini, sistem hanya akan menampilkan informasi penghuni yang termasuk dalam kategori Penghuni Mandiri, sehingga data dapat dilihat secara lebih spesifik sesuai dengan jenis penghuni yang dipilih.
+
+### 2.3.4 Tampilkan Data Penghuni Bedridden
+
+<img width="380" height="478" alt="image" src="https://github.com/user-attachments/assets/53a3a715-dbc6-4b76-854d-19ab78ee3c53" />
+
+Gambar di atas menunjukkan data Penghuni Bedridden. Ketika pengguna memilih menu ini, sistem hanya akan menampilkan informasi penghuni yang termasuk dalam kategori Penghuni Bedridden, sehingga data dapat dilihat secara lebih spesifik sesuai dengan jenis penghuni intensif yang dipilih.
+
 
 ## 2.4 Menu Update
 
@@ -198,7 +215,7 @@ Gambar di atas menampilkan validasi kondisi kesehatan. Pengguna tidak diperboleh
 
 ## 3.1 MVC
 
-<img width="495" height="341" alt="image" src="https://github.com/user-attachments/assets/210e7af7-1b0a-4d77-a377-4e26ecfc84ca" />
+<img width="319" height="234" alt="image" src="https://github.com/user-attachments/assets/87410130-008b-48dc-95b5-0d060913678f" />
 
 MVC (Model, View, Controller) merupakan pola atau struktur dalam pembuatan proyek yang digunakan untuk memisahkan bagian data, tampilan, dan proses pengendalian program. Penerapan MVC bertujuan agar kode program lebih terstruktur, mudah dipahami, serta memudahkan proses pengembangan dan pemeliharaan program.
 
@@ -218,7 +235,7 @@ Package controller berisikan class ManajemenPanti. Package ini bertugas sebagai 
 
 ## 3.2 Inheritance
 
-<img width="495" height="114" alt="image" src="https://github.com/user-attachments/assets/7897fae5-d64b-4767-a312-89567f51dffc" />
+<img width="319" height="93" alt="image" src="https://github.com/user-attachments/assets/7288bed8-6f89-482b-8783-124d07fee217" />
 
 Inheritance merupakan mekanisme dalam pemrograman berorientasi objek yang memungkinkan sebuah Subclass mewarisi atribut dan method dari kelas Superclass. Konsep ini digunakan untuk mengurangi pengulangan kode serta memudahkan pengelolaan kelas yang memiliki karakteristik yang saling berkaitan.
 
@@ -235,6 +252,12 @@ Gambar di atas menunjukkan penerapan konsep inheritance pada program. Pada kode 
 <img width="692" height="159" alt="image" src="https://github.com/user-attachments/assets/a2d7ebcd-211b-407a-872d-39922184f37c" />
 
 Gambar di atas juga menunjukkan penerapan konsep inheritance pada program. Pada kode tersebut terdapat keyword extends yang digunakan untuk menunjukkan bahwa class PenghuniMandiri mewarisi atribut dan method dari class PenghuniPanti sebagai superclass. Dengan demikian, PenghuniMandiri dapat menggunakan data dan perilaku yang sudah didefinisikan pada class PenghuniPanti serta menambahkan atribut atau method khusus sesuai dengan jenis penghuninya.
+
+**3. Penghuni Bedridden**
+
+<img width="499" height="158" alt="image" src="https://github.com/user-attachments/assets/772d9934-07e9-474c-86a2-b105b3187fe7" />
+
+Gambar di atas menunjukkan penerapan konsep Multilevel Inheritance pada program. Pada kode tersebut terdapat keyword extends yang digunakan untuk menunjukkan bahwa class PenghuniBedridden mewarisi atribut dan method dari class PenghuniIntensif yang merupakan subclas sekaligus superclass. Dengan demikian, PenghuniBedridden dapat menggunakan data dan perilaku yang sudah didefinisikan pada class PenghuniIntensif serta menambahkan atribut atau method khusus sesuai dengan jenis penghuninya.
 
 ## 3.3 Encapsulation
 
